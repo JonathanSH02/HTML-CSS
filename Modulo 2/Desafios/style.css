@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'ANDROID';
+    src: url(fontes/idroid.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    background-color: rgba(69, 253, 146, 0.719);
+}
+header {
+    background-image: linear-gradient(to bottom,lightgreen,green,black);
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav {
+    text-align: left;
+    margin: 2px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+nav > a:hover {
+    background-color: green;
+    padding: 15px;
+    border-radius: 10px;
+}
+main {
+    background-color: white;
+    margin: 0px 11%;
+    padding: 10px 20px;
+}
+main > h1 {
+    font-family: 'ANDROID';
+    color: green;
+}
+main > h2 {
+    font-family: 'ANDROID';
+    color: green;
+    background-image: linear-gradient(to right, lightgreen 40%,white 60%);
+}
+main > p {
+    text-align: justify;
+    text-indent: 15px;
+}
+main > p#curiosidade{
+    text-align: center;
+}
+div#extra{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(69, 253, 146, 0.5);
+    border-radius: 10px;
+    text-indent: 10px;
+    padding: 0px 0px 10px;
+}
+div#extra > h3 {
+    background-color: green;
+    padding: 5px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+footer > p {
+ text-align: center;
+}
+img {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    position:relative;
+}
