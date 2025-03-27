@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: center; /* Centraliza os itens verticalmente */
+    justify-content: space-between; /* Espaço entre logo e menu */
+    padding: 10px 20px; /* Espaçamento ao redor */
+    background: #333;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex: 1; /* Faz o menu ocupar o espaço disponível */
+    justify-content: space-evenly; /* Distribui os itens igualmente */
+}
+
+.menu a {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: #444;
+}
